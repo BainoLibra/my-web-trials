@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="My Logo" class="logo">
+              </a>
+              
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Participation in the concept of good governance here is an opportunity for everyone <br> to voice their opinions through representations. </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!--course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Citing relevant examples, explain the challenges faced by pressure groups in advocating for the rights and freedoms of citizens in developing countries </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Masters</h3>
+                <p>Explain at least five components of a good electoral system</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p>Discuss the challenges frequently faced during elections in Uganda today</p>
+            </div>
+            <div class="course-col">
+                <h3>Under-Graduate</h3>
+                <p>As a scholar of Politics and Government in Africa, discuss  any five types of   pressure groups known to you </p>
+            </div>
+        </div>
+    </section>
+
+    <!--campus-->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>With the aid of examples, give reasons for a rigid constitution </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON DC</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>With the aid of examples, give reasons for a rigid constitution</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>As a scholar of Politics and Government in Africa, discuss  any five types of   pressure groups known to you </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>As a scholar of Politics and Government in Africa, discuss  any five types of   pressure groups known to you </p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>As a scholar of Politics and Government in Africa, discuss  any five types of   pressure groups known to you </p>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonials-->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Explain at least five components of a good electoral system</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/Libra.jpg">
+                <div>
+                    <p>Explain at least five components of a good electoral system</p>
+                    <h3>Baino Libra</h3>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/amon.jpg">
+                <div>
+                    <p>Explain at least five components of a good electoral system</p>
+                    <h3>Muhwezi Amon</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call To Action-->
+    <section class="cta">
+        <h1>Enroll for Our various Online Courses <br> Anywhere from the World</h1>
+        <a href="">CONTACT US</a>
+        <img src="images/banner2.jpg">
+    </section>
+
+
+    <!--javaScript for Toggle Menue-->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function ShowMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenue(){
+            navLinks.style.right ="-200px";
+        }
+    
+    </script>
+</body>
+</html>
